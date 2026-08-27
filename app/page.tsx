@@ -1,4 +1,6 @@
 import { Navbar } from "@/components/navbar";
+import { About } from "@/components/about";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
@@ -7,6 +9,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
+        
         {/* Background Grid */}
         <div className="grid-background absolute inset-0 opacity-60" />
 
@@ -36,9 +39,7 @@ export default function Home() {
           {/* Main Heading */}
           <h1 className="text-5xl font-bold tracking-tight text-white sm:text-7xl md:text-8xl lg:text-9xl">
             Hi, I am{" "}
-            <span className="gradient-text">
-              Vansh.
-            </span>
+            <span className="gradient-text">Vansh.</span>
           </h1>
 
           {/* Description */}
@@ -55,6 +56,7 @@ export default function Home() {
               className="group rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-zinc-200"
             >
               View My Work
+
               <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">
                 →
               </span>
@@ -70,7 +72,7 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Tech Stack Preview */}
+          {/* Tech Stack */}
           <div className="mt-16">
             <p className="mb-4 text-xs uppercase tracking-[0.25em] text-zinc-600">
               Currently working with
@@ -109,10 +111,13 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <About />
+
       {/* Temporary Projects Section */}
       <section
         id="projects"
-        className="relative flex min-h-[50vh] items-center justify-center border-t border-white/10"
+        className="relative flex min-h-[50vh] items-center justify-center overflow-hidden border-t border-white/10"
       >
         <div className="grid-background absolute inset-0 opacity-20" />
 
