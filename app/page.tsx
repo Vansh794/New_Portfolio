@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { About } from "@/components/about";
 import { Projects } from "@/components/projects";
-
+import { Skills } from "@/components/skills";
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
@@ -114,7 +114,8 @@ export default function Home() {
 
       {/* About Section */}
       <About />
-
+      {/* Skills Section */}
+      <Skills />
       {/* Temporary Projects Section */}
       <Projects />
     </main>
