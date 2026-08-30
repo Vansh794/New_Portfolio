@@ -2,7 +2,6 @@ const navItems = [
   { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
-  { name: "Achievements", href: "#achievements" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -32,15 +31,28 @@ export function Navbar() {
           ))}
         </nav>
 
-        {/* GitHub */}
-        <a
-          href="https://github.com/Vansh794"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:bg-white/[0.08]"
-        >
+        {/* Resume and GitHub */}
+        <div className="flex items-center gap-3">
+          {/* Resume */}
+          <a
+            href="/Vansh_Baranwal_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:bg-white/[0.08]"
+          >
+          Resume
+          </a>
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/Vansh794"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:bg-white/[0.08]"
+          >
           GitHub
-        </a>
+          </a>
+        </div>
       </div>
     </header>
   );
