@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navbar";
 import { About } from "@/components/about";
+import { Projects } from "@/components/projects";
 
 export default function Home() {
   return (
@@ -115,22 +116,7 @@ export default function Home() {
       <About />
 
       {/* Temporary Projects Section */}
-      <section
-        id="projects"
-        className="relative flex min-h-[50vh] items-center justify-center overflow-hidden border-t border-white/10"
-      >
-        <div className="grid-background absolute inset-0 opacity-20" />
-
-        <div className="relative z-10 text-center">
-          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-zinc-500">
-            What I have built
-          </p>
-
-          <h2 className="text-3xl font-bold text-white sm:text-4xl">
-            Projects coming next...
-          </h2>
-        </div>
-      </section>
+      <Projects />
     </main>
   );
 }
