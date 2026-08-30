@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { About } from "@/components/about";
 import { Projects } from "@/components/projects";
 import { Skills } from "@/components/skills";
+import { Contact } from "@/components/contact";
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
@@ -118,6 +119,8 @@ export default function Home() {
       <Skills />
       {/* Temporary Projects Section */}
       <Projects />
+      {/* Contact Section */}
+      <Contact />
     </main>
   );
 }
