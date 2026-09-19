@@ -39,13 +39,13 @@ export default function Home() {
           </p>
 
           {/* Main Heading */}
-          <h1 className="text-5xl font-bold tracking-tight text-white sm:text-7xl md:text-8xl lg:text-9xl">
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl md:text-8xl lg:text-9xl">
             Hi, I am{" "}
             <span className="gradient-text">Vansh.</span>
           </h1>
 
           {/* Description */}
-          <p className="mx-auto mt-8 max-w-2xl text-base leading-8 text-zinc-400 sm:text-lg">
+          <p className="mx-auto mt-6 max-w-2xl px-2 text-sm leading-7 text-zinc-400 sm:mt-8 sm:text-lg sm:leading-8">
             I build intelligent systems, full-stack applications, and
             meaningful digital products while constantly learning and
             improving.
